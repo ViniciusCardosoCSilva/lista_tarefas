@@ -1,0 +1,137 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    background-color: #006ce052;
+    width: 60%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 50px;
+    min-width: 700px;
+}
+
+.logo{
+    width: 70px;
+    height: 130px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+form{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    align-items: center;
+}
+
+form input{
+    width: 450px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+}
+
+form button{
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 32px;
+    background-color: #010e64;
+    border-radius: 15px;
+    margin-top: 35px;
+    border: none;
+    color: white;
+}
+
+form button:active{
+    transform: translateY(4px);
+    box-shadow: 7px 6px 28px 1px rgba(255, 255, 255, 0.24);
+}
+
+
+.conteudo{
+    width: 670px;
+    height: 50%;
+    min-height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 1400px) {
+    .conteudo{ 
+        height: 30%;
+    }
+}
+
+.barra-conteudo{
+    margin-top: 25px;
+    display: flex;
+    height: 70px;
+    align-content: space-between;
+}
+
+.barra-conteudo div{
+    border-radius: 15px;
+    width: 450px;
+    height: 60px;
+    background-color: #f6f6f6;
+    font-size: 32px;
+    color: black ;
+    text-align: center;
+}
+
+.barra-conteudo div span{
+    vertical-align: 2px;
+    position: relative; 
+    top: 10px;
+    display: inline-block; 
+}
+
+.barra-conteudo button{
+    padding: 10px;
+    height: 60px;
+    background-color: #010e64;
+    font-weight: 32px;
+    margin-right: -131px;
+    border-radius: 15px;
+    font-size: 32px;
+    color: white;
+    border: none;
+    margin-left: 25px;
+}
+
